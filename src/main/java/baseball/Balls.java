@@ -18,11 +18,20 @@ public class Balls {
         return balls;
     }
 
+    public PlayResult play(List<Integer> userBallList) {
+        Balls userBalls = new Balls(userBallList);
+        PlayResult playResult = new PlayResult();
+        for (Ball ball : balls) {
+            BallStatus ballStatus = userBalls.play(ball);
+            playResult.report(ballStatus);
+        }
+        return playResult;
+    }
     public BallStatus play(Ball userBall) {
         return balls.stream()
                 .map(ball -> ball.play(userBall))
                 .filter(BallStatus::isNotNothing)
                 .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("볼이 없습니다."));
+                .orElse(BallStatus.NOTHING);
     }
 }
