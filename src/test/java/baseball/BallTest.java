@@ -7,27 +7,27 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class BallTest {
-    Ball com;
+    Ball comBall;
 
     @BeforeEach
     void setUp() {
-        com = new Ball(1,4);
+        comBall = new Ball(1,4);
     }
     @Test
     void nothing() {
-        BallStatus ballStatus = com.play(new Ball(2,5));
+        BallStatus ballStatus = comBall.play(new Ball(2,5));
         assertThat(ballStatus).isEqualTo(BallStatus.NOTHING);
     }
 
     @Test
     void ball() {
-        BallStatus ballStatus = com.play(new Ball(2,4));
+        BallStatus ballStatus = comBall.play(new Ball(2,4));
         assertThat(ballStatus).isEqualTo(BallStatus.BALL);
     }
 
     @Test
     void strike() {
-        BallStatus ballStatus = com.play(new Ball(1,4));
+        BallStatus ballStatus = comBall.play(new Ball(1,4));
         assertThat(ballStatus).isEqualTo(ballStatus.STRIKE);
     }
 }
