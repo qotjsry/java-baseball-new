@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748d2ad8-3767-4f8e-b9d4-626c2e56f880" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseball/BallNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseball/PlayResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseball/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseball/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseball/BallStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseball/BallStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseball/Balls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseball/Balls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseball/BallsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseball/BallsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseball/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseball/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,20 @@
       <recent name="baseball" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BallTest.strike">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baseball.Main" />
+      <module name="java-baseball-new.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baseball.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BallTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -145,7 +153,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BallsTest.play_1strike_1ball" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BallsTest.strike" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,30 +166,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;baseball.BallsTest.play_1strike_1ball&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BallsTest.play_3strike" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;baseball.BallsTest.play_3strike&quot;" />
+            <option value="&quot;baseball.BallsTest.strike&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.BallsTest.strike" />
         <item itemvalue="Gradle.BallTest.strike" />
         <item itemvalue="Gradle.BallTest" />
         <item itemvalue="Gradle.BallsTest" />
-        <item itemvalue="Gradle.BallsTest.play_3strike" />
-        <item itemvalue="Gradle.BallsTest.play_1strike_1ball" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690200676510</updated>
-      <workItem from="1690200677778" duration="8477000" />
+      <workItem from="1690200677778" duration="10991000" />
     </task>
     <servers />
   </component>
